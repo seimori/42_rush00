@@ -6,16 +6,14 @@
 /*   By: imorimot <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/07 08:09:12 by imorimot          #+#    #+#             */
-/*   Updated: 2018/07/07 08:35:31 by imorimot         ###   ########.fr       */
+/*   Updated: 2018/07/07 13:10:15 by imorimot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-#include "ft_putchar.c"
-#include "rush01.c"
+void	rush(int x, int y);
 
 int		main(void)
 {
-	rush(7, 5);
+	rush(5, 5);
 	return (0);
 }
