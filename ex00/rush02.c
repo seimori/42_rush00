@@ -6,7 +6,7 @@
 /*   By: vsaltel <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/07 08:56:51 by vsaltel           #+#    #+#             */
-/*   Updated: 2018/07/07 15:04:18 by vsaltel          ###   ########.fr       */
+/*   Updated: 2018/07/07 15:32:22 by imorimot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@ int		ft_putchar(char c);
 
 void	print(int x, int y, int x_index, int y_index)
 {
-	if ((x_index == 1 && y_index == 1) || (x_index == x && y_index == 1 ))
+	if ((x_index == 1 && y_index == 1) || (x_index == x && y_index == 1))
 		ft_putchar('A');
 	else if ((x_index == 1 && y_index == y) || (x_index == x && y_index == y))
 		ft_putchar('C');
